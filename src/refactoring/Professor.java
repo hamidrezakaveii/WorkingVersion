@@ -19,7 +19,7 @@ public class Professor extends Person {
     
     public Professor(String lastName, String firstName){
         
-        String employeeId = lastName.toUpperCase().trim().substring(1,3)+ 
+        String employeeID = lastName.toUpperCase().trim().substring(1,3)+ 
                 firstName.toUpperCase().trim().substring(1,3);
         System.out.println("New professor: "+ employeeID);
         
