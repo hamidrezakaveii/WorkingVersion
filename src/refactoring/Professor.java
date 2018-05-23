@@ -28,5 +28,9 @@ public class Professor extends Person {
     public void setPhotoUrl(String photoName){
         this.photoUrl = "/photos/professors/mad/"+ photoName;
     }
+
+    public void isSupervisedBy(Student student) {
+        this.students.add(student);
+    }
     
 }
